@@ -1,0 +1,16 @@
+.about-container{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-img{
+width: 44vw;
+height: 50vh;
+background-color: blueviolet;
+}
+.about-text{
+    width: 44vw;
+    height: 50vh;
+    background-color: cornflowerblue;
+}

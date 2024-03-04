@@ -1,0 +1,50 @@
+.f-dev{
+    height: 60vh;
+    width: 44vw;
+}
+.home-container{
+    height: auto;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15vh;
+}
+.home-text{
+    height: 60vh;
+    width: 44vw;
+    animation: text 1s;
+    color: white;
+    font-size: 40px;
+    font-family: anta;
+}
+@keyframes text {
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+@media screen and (max-width: 660px) {
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding: 4vw;
+        box-sizing: border-box;
+        padding-top: 15vh;
+
+    }
+    .home-text{
+        height: auto;
+        width: 92vw;
+        font-size: 30px;
+        
+    }
+    .f-dev{
+        height: 70vh;
+        width: 80vw;
+    }
+}

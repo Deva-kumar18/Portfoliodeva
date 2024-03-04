@@ -1,0 +1,41 @@
+.skills-container{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+}
+.s-content{
+    display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.skill-img{
+    height: 60vh;
+    width: 46vw;
+   background-color: chocolate;
+}
+.skill-lev{
+    height: 60vh;
+    width: 46vw;
+    background-color: crimson;
+}
+@media screen and (max-width: 660px) {
+    .s-content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+      width: 100vw;
+      justify-content: space-evenly;
+      box-sizing: border-box;
+      padding: 4vw;
+    }
+    .skill-lev{
+        width: 94vw;
+    }
+    .skill-img{
+        width: 94vw;
+    }
+}

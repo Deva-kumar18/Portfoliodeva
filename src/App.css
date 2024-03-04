@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: black;
+  height: 100%;
+  width: 100vw;
+  box-sizing: border-box;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.navbar-container{
+  position: fixed;
+}
+
